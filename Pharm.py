@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 import openpyxl
 
-openai.api_key = "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"
+openai.api_key = "MY_API-KEY_HERE"
 
 data = pd.read_excel('Данные.xlsx', sheet_name='data', engine='openpyxl')
 data2 = pd.read_excel('Binipharm.xlsx', sheet_name='Sheet9', engine='openpyxl')
